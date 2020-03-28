@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d2d3552-8795-414c-ba7c-3834b86f8a71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/ThemeProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/ThemeProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typography/Subtitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typography/Subtitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typography/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typography/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typography/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typography/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/backend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/backend.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +63,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,9 +122,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585378157530" />
-    <state x="638" y="291" width="710" height="522" key="find.popup" timestamp="1585384969669">
+    <state x="638" y="291" width="710" height="522" key="find.popup" timestamp="1585388826684">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="638" y="291" width="710" height="522" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585384969669" />
+    <state x="638" y="291" width="710" height="522" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585388826684" />
   </component>
 </project>

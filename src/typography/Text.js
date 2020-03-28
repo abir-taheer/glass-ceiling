@@ -6,7 +6,7 @@ type Props = {
 	children: string,
 	center: boolean,
 	style: Object,
-	className: Array | string
+	className: Array<string> | string
 };
 
 const Text = (props: Props) => {
@@ -14,10 +14,12 @@ const Text = (props: Props) => {
 		...props.style
 	};
 
-	let classesArray = props.className;
+	let classesArray;
 
-	if(! Array.isArray(classesArray) ){
+	if( typeof props.className === "string" ){
 		classesArray = props.className.split(" ");
+	} else {
+		classesArray = props.className;
 	}
 
 	const classes = [

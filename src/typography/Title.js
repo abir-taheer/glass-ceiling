@@ -6,7 +6,7 @@ type Props = {
 	children: string,
 	center: boolean,
 	style: Object,
-	className: string | Array,
+	className: Array<string> | string,
 	level: number
 };
 
@@ -20,10 +20,12 @@ const Title = (props: Props) => {
 
 	const fontSize = `Title-${level}`;
 
-	let classesArray = props.className;
+	let classesArray;
 
-	if(! Array.isArray(classesArray) ){
+	if( typeof props.className === "string" ){
 		classesArray = props.className.split(" ");
+	} else {
+		classesArray = props.className;
 	}
 
 	let classes = [

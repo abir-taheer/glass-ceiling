@@ -1,10 +1,12 @@
 // @flow
 import React from "react";
+import type {Node} from 'react';
+
 import {ThemeProvider as Provider} from "@rmwc/theme";
 import defaultTheme from "./default";
 
 type PropTypes = {
-	children: React.ReactNode
+	children: Node
 };
 
 export const ThemeProvider = (props: PropTypes) => {

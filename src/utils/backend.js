@@ -1,7 +1,8 @@
 import axios from 'axios';
+import {API_URL} from "../constants";
 
 const backend = axios.create({
-	baseURL: process.env.REACT_APP_API_URL
+	baseURL: API_URL
 });
 
 backend.defaults.withCredentials = true;
